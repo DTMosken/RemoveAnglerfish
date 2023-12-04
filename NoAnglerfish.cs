@@ -18,7 +18,7 @@ public class RemoveAnglerfish : Mod
     {
         Debug.Log("Mod RemoveAnglerfish has been loaded!");
 
-        var harmony = new Harmony("com.KUNGERMOoN.RemoveAnglerfish");
+        var harmony = new Harmony("com.MOSKEN.RemoveAnglerfish");
         harmony.PatchAll();
     }
 
